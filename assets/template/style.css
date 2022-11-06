@@ -9,6 +9,7 @@
     padding: 20px 0;
     background-color: rgb(9, 9, 9);
     height: 80px auto;
+    transition: .3s;
 }
 
 .center {
@@ -225,6 +226,11 @@ section.selos {
 }
 
 @media screen and (max-width: 768px) {
+    .header {
+        position: fixed;
+        width: 100%;
+    }
+
     .items-menu--mobile {
         display: block;
     }
@@ -273,7 +279,7 @@ section.selos {
 
     .banner {
         width: 100vw;
-        height: 400px;
+        height: 500px;
         background-image: url(../images/bg.png);
         background-repeat: no-repeat;
         background-size: cover;
