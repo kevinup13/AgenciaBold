@@ -171,9 +171,9 @@
 .item {
     background-color: rgb(38, 38, 38);
     display: block;
+    flex-wrap: wrap;
     align-items: center;
     height: 200px;
-    flex-direction: column;
     text-align: center;
     width: 30%;
     margin: 1%;
@@ -220,12 +220,19 @@
         font-size: 20px;
     }
 
-
-
-
-
     .items-menu {
         display: none;
     }
 
+
+
+    .banner h1 {
+        font-size: 25px;
+    }
+
+    .banner h2 {
+        font-size: 18px;
+    }
+
+    */
 }
