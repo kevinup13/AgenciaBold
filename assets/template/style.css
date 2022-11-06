@@ -271,6 +271,15 @@ section.selos {
         font-size: 25px;
     }
 
+    .banner {
+        width: 100vw;
+        height: 400px;
+        background-image: url(../images/bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
     .banner h2 {
         font-size: 18px;
     }
