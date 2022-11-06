@@ -8,6 +8,4 @@ menuBtn.addEventListener('click', () => {
         itemsMenu.classList.remove('hide');
         itemsMenu.classList.add('show');
     }
-
-
 });
