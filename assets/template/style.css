@@ -111,7 +111,6 @@
     background-color: rgba(0, 0, 0, .6);
 }
 
-
 .banner .slidearea {
     display: flex;
     height: 100%;
@@ -149,36 +148,37 @@
 
 /* credibilidade */
 
-.beneficios {
+section.selos {
+    padding: 40px 0;
+    background-color: black;
+    color: aliceblue;
+
+}
+
+.selos-area {
     display: flex;
-    flex-wrap: wrap;
     width: 100%;
-    min-height: 250px;
-    background-color: black;
-    color: aliceblue;
-
 }
 
-.beneficios .center {
-    flex-wrap: wrap;
-    width: 100%;
-    min-height: 250px;
-    background-color: black;
-    color: aliceblue;
-
-}
-
-.item {
-    background-color: rgb(38, 38, 38);
-    display: block;
-    flex-wrap: wrap;
-    align-items: center;
-    height: 200px;
+.box-selo {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    width: 30%;
-    margin: 1%;
-    padding: 10px;
+    box-shadow: 0px 2px 15px rgb(71, 71, 71);
     border-radius: 10px;
+    width: 31%;
+    margin-right: 2%;
+    padding: 10px 20px;
+}
+
+.box-selo h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.box-selo p {
+    font-size: 15px;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -224,13 +224,21 @@
         display: none;
     }
 
-
-
     .banner h1 {
         font-size: 25px;
     }
 
     .banner h2 {
         font-size: 18px;
+    }
+
+    .selos-area {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .box-selo {
+        width: 100%;
+        margin-right: 0;
     }
 }
