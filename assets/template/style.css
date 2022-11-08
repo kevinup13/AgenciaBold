@@ -121,6 +121,10 @@
     flex-direction: column;
 }
 
+.banner .slidearea img {
+    width: 250px;
+}
+
 .banner h1 {
     text-transform: uppercase;
     font-weight: bold;
