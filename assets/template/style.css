@@ -6,7 +6,7 @@
 }
 
 .header {
-    padding: 20px 0;
+    padding: 10px 0;
     background-color: rgb(9, 9, 9);
     height: 80px auto;
     transition: .3s;
@@ -31,6 +31,10 @@
 
 .logo-menu {
     width: 50%;
+}
+
+.logo-menu img {
+    height: 40px;
 }
 
 .items-menu {
@@ -318,8 +322,8 @@ section.selos {
         padding: 8px 0;
     }
 
-    .logo-menu h1 {
-        font-size: 20px;
+    .logo-menu img {
+        height: 25px;
     }
 
     .items-menu {
