@@ -282,6 +282,12 @@ section.selos {
     width: 100%;
 }
 
+.box-servico h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #999;
+}
+
 @media screen and (max-width: 768px) {
     .header {
         /* position: fixed; */
